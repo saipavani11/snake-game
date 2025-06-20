@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Table Booking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/css/navtab.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha384-oOnzfs3F1pQqXsmkjm5OKoH5xnA5l2zg15TOI5XG5yfswQLmt88oT02SGrjskKmf" crossorigin="anonymous">
+
+    <link rel = "stylesheet" href="/css/tablee.css">
+    <script src = "tablee.js"></script> 
+</head>
+<body>
+
+    <header>
+        <div class="nav-header">
+            <div class="logo">
+                <img src="/images/Savoury (1).png" alt="">
+            </div>
+            <div class="nav">
+        
+                <nav class="navbar">
+                    <ul>
+                       <a href="home.html">
+                        <li>Home</li>
+                       </a>
+                    
+                       <a href="about.html">
+                        <li>About</li>
+                       </a>
+                    
+                       <a href="menu.html">
+                        <li>Food Menu</li>
+                       </a>
+                    
+                       <a href="tablee.html">
+                        <li>Book Table</li>
+                       </a>
+                
+                        <a href="signin.html">
+                        <li>Sign in</li>
+                        </a>
+
+                        <a href="contact.html">
+                        <li>Contact Us</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="account">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search food..." class = "searchcontents"/>
+                    <i class="fa-solid fa-magnifying-glass" id="searchicon" onclick="searchMenu()" class = "searchcontents"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="table">
+        <h1 class="main-heading">Book the table now!</h1>
+        <div class="container">
+            <!-- First Column - 4 Seater Tables -->
+            <div class="column">
+                <h2 class="column-title">4 Seater Tables</h2>
+                <div class="table-grid" id="fourSeaterGrid"></div>
+            </div>
+    
+            <!-- Second Column - 6 Seater Tables -->
+            <div class="column">
+                <h2 class="column-title">6 Seater Tables</h2>
+                <div class="table-grid" id="sixSeaterGrid"></div>
+            </div>
+    
+            <!-- Third Column - Calendar and Booking -->
+            <div class="column right-column">
+                <h2 class="main-title">Select the date!</h2>
+                <div class="calendar">
+                    <div class="calendar-header">
+                        <button id="prevMonth">←</button>
+                        <span id="currentMonth"></span>
+                        <button id="nextMonth">→</button>
+                    </div>
+                    <div class="calendar-grid" id="calendarGrid"></div>
+                </div>
+    
+                <button class="confirm-button" id="confirmButton" disabled>Book Table</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="book.html">Book Table</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Foodie Street, Bengaluru, India</p>
+                <p><i class="fas fa-phone-alt"></i> +91 98765 43210</p>
+                <p><i class="fas fa-envelope"></i> contact@savouryspot.com</p>
+            </div>
+            
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Savoury Spot. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

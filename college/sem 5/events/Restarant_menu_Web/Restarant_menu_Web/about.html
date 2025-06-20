@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="/css/navtab.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/cd.css">
+</head>
+<body>
+
+<!-- Header start -->
+
+<header>
+    <div class="nav-header">
+        <div class="logo">
+            <img src="/images/Savoury (1).png" alt="">
+        </div>
+        <div class="nav">
+    
+            <nav class="navbar">
+                <ul>
+                   <a href="home.html">
+                    <li>Home</li>
+                   </a>
+                
+                   <a href="about.html">
+                    <li>About</li>
+                   </a>
+                
+                   <a href="menu.html">
+                    <li>Food Menu</li>
+                   </a>
+                
+                   <a href="tablee.html">
+                    <li>Book Table</li>
+                   </a>
+            
+                    <a href="signin.html">
+                    <li>Sign in</li>
+                    </a>
+
+                    <a href="contact.html">
+                    <li>Contact Us</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="account">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search food..." class = "searchcontents"/>
+                <i class="fa-solid fa-magnifying-glass" id="searchicon" onclick="searchMenu()" class = "searchcontents"></i>
+            </div>
+        </div>
+    </div>
+</header>
+ <!-- Header end -->
+<!-- Photo section -->
+<div class="about-content">
+
+    <div class="mainabout">
+        <div class="photo">
+          <img src="/images/aboutsec1.jpg" alt="Restaurant Interior" class="restaurant-image">
+        </div>
+        <div class="aboutus">
+            <h2>About Us</h2>
+            <p>
+                Welcome to our restaurant, where every meal is a celebration of flavors and creativity. We take immense pride in curating a dining experience that transcends the ordinary, combining exceptional cuisine with a warm and inviting ambiance. Our menu is a testament to our passion for food, featuring a rich variety of dishes crafted with the freshest, locally sourced ingredients and infused with global and regional inspirations. 
+            
+                Step into our cozy yet elegant space, designed to make every visit unforgettable, whether it's a quick lunch, or a joyful celebration with family and friends. From the soft glow of our lighting to the attentive service of our staff,create a welcoming atmosphere that feels like home.
+            
+                It's about the laughter shared over a meal, and the joy of discovering new flavors. We believe that great food has the power to bring people together, to create memories, and to turn an ordinary day into something truly special.
+            </p>
+        </div>
+    </div>
+    
+    <!-- Chefs Section -->
+    <section id="chefs" class="chefs">
+      <h2 style=color:#362813>Our Golden Chefs</h2>
+      
+      <div class="chefs-container">
+      
+        <div class="chef">
+          <img src="/images/team-1.jpg" alt="Chef 1" class="chef-image">
+          <h3>Chef John Doe</h3>
+          <p>Head Chef</p>
+        </div>
+      
+        <div class="chef">
+          <img src="/images/team-2.jpg" alt="Chef 2" class="chef-image">
+          <h3>Chef Jane Smith</h3>
+          <p>Pastry Chef</p>
+        </div>
+      
+        <div class="chef">
+          <img src="/images/team-3.jpg" alt="Chef 3" class="chef-image">
+          <h3>Chef Mike Johnson</h3>
+          <p>Sous Chef</p>
+        </div>
+      
+        <div class="chef">
+          <img src="/images/team-4.jpg" alt="Chef 4" class="chef-image">
+          <h3>Chef Emily Davis</h3>
+          <p>Line Cook</p>
+        </div>
+      
+      </div>
+    </section>
+    
+    
+    <!-- About Section -->
+    <section id="aboutus" class="aboutus">
+      <h2>Our Story</h2>
+      <p>
+        Our story began with a dream a dream to create not just a restaurant, but a haven where food, passion, and togetherness intertwine. From a small, heartfelt vision to the bustling space it is today, our journey has been one of determination, creativity, and a relentless commitment to excellence.  
+    
+        It all started in a modest kitchen, fueled by a love for flavors and the belief that food has the power to bring people closer. Every dish was an experiment, every recipe a story, and every meal an opportunity to share joy. Over the years, our small team of dreamers grew into a family of culinary artists, servers, and food lovers, each contributing their unique talents to craft the dining experience we offer today.  
+    
+        Our menu is a celebration of diversity, blending the timeless appeal of traditional recipes with the excitement of modern cuisine. Every ingredient is chosen with care, every dish prepared with the utmost dedication, and every plate served with a smile. We believe in creating flavors that not only satisfy hunger but also spark emotions nostalgia, curiosity, and happiness.   
+    
+        Today, we stand as a testament to what can be achieved with a shared vision and unwavering belief in the power of food and community. As we continue to grow, we remain rooted in our values of quality, hospitality, and passion. We invite you to join us, to be a part of our journey, and to help us write the next chapter in "Our Story." Together, let's make every meal a celebration and every moment a cherished memory.
+      </p>
+    </section>
+</div>
+
+<footer>
+  <div class="footer-container">
+      <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="book.html">Book Table</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+      </div>
+      
+      <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p><i class="fas fa-map-marker-alt"></i> 123 Foodie Street, Bengaluru, India</p>
+          <p><i class="fas fa-phone-alt"></i> +91 98765 43210</p>
+          <p><i class="fas fa-envelope"></i> contact@savouryspot.com</p>
+      </div>
+      
+      <div class="footer-social">
+          <h4>Follow Us</h4>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+  </div>
+  
+  <div class="footer-bottom">
+      <p>&copy; 2025 Savoury Spot. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

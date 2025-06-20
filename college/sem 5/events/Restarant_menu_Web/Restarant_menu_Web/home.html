@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <link rel="stylesheet" href="css/navtab.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="nav-header"> 
+            <div class="logo">
+                <img src="/images/Savoury (1).png" alt="Savoury Spot Logo">
+            </div>
+            
+            <div class="nav">
+        
+        <nav class="navbar">
+            <ul>
+               <a href="home.html">
+                <li>Home</li>
+               </a>
+            
+               <a href="about.html">
+                <li>About</li>
+               </a>
+            
+               <a href="menu.html">
+                <li>Food Menu</li>
+               </a>
+            
+               <a href="tablee.html">
+                <li>Book Table</li>
+               </a>
+        
+                <a href="signin.html">
+                <li>Sign in</li>
+                </a>
+
+                <a href="contact.html">
+                <li>Contact Us</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+        
+            <div class="account">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search food..." class = "searchcontents"/>
+                    <i class="fa-solid fa-magnifying-glass" id="searchicon" onclick="searchMenu()" class = "searchcontents"></i>
+                </div>
+            </div>
+        <!-- </div> -->
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="home">
+        <div class="main-slide">
+            <!-- Text Content -->
+            <div class="intro-content">
+                <h1 id="animated-text"></h1>
+                <p>
+                    <justify>At Savoury Spot, we bring rich, vibrant flavors to your table. Our menu celebrates a perfect blend of traditional spices, aromatic herbs, and time-honored recipes that will transport you to a world of culinary delight. From sizzling tandoori dishes and fragrant biryanis to indulgent curries and mouthwatering street food, each dish is prepared with care and authenticity, using the finest locally-sourced ingredients. Experience a warm ambiance, attentive service, and a feast that will leave you craving more. Welcome to a place where every meal is a celebration of flavor and tradition.</justify>
+                </p>
+                <a href="menu.html"><button class="red-btn">Visit Now <i class="fa-solid fa-arrow-right-long"></i></button></a>
+            </div>
+    
+            <!-- Rotating Image -->
+            <div class="rotating-image">
+                <img src="/images/lavash-rolls-top-view-table.jpg" alt="Rotating Image">
+            </div>
+        </div>
+    </div>
+    
+    <!-- Reviews Section -->
+    <div class="reviews-section">
+        <h2>What Our Customers Say</h2>
+        <div class="reviews">
+            <div class="review-card">
+                <p>"Absolutely delicious food! The flavors are authentic and delightful. Highly recommend the biryani!"</p>
+                <span>- Rahul K.</span>
+            </div>
+            <div class="review-card">
+                <p>"The ambiance is so warm and inviting. Perfect for family dinners and special occasions."</p>
+                <span>- Priya S.</span>
+            </div>
+            <div class="review-card">
+                <p>"Savoury Spot is my go-to place for authentic Indian street food. The chaat is a must-try!"</p>
+                <span>- Daniel M.</span>
+            </div>
+        </div>
+    </div>
+    
+    <!--This is menu page-->
+   
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="book.html">Book Table</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Foodie Street, Bengaluru, India</p>
+                <p><i class="fas fa-phone-alt"></i> +91 98765 43210</p>
+                <p><i class="fas fa-envelope"></i> contact@savouryspot.com</p>
+            </div>
+            
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Savoury Spot. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
