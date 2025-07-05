@@ -19,3 +19,25 @@ C:\Users\Sai Pavani\source\repos\snake-game\snake-game\obj\Debug\net8.0-windows\
 C:\Users\Sai Pavani\source\repos\snake-game\snake-game\obj\Debug\net8.0-windows\snake-game.pdb
 C:\Users\Sai Pavani\source\repos\snake-game\snake-game\obj\Debug\net8.0-windows\snake-game.genruntimeconfig.cache
 C:\Users\Sai Pavani\source\repos\snake-game\snake-game\obj\Debug\net8.0-windows\ref\snake-game.dll
+D:\snake-game\snake-game\bin\Debug\net8.0-windows\snake-game.exe
+D:\snake-game\snake-game\bin\Debug\net8.0-windows\snake-game.deps.json
+D:\snake-game\snake-game\bin\Debug\net8.0-windows\snake-game.runtimeconfig.json
+D:\snake-game\snake-game\bin\Debug\net8.0-windows\snake-game.dll
+D:\snake-game\snake-game\bin\Debug\net8.0-windows\snake-game.pdb
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\App.g.cs
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\snake-game_MarkupCompile.cache
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\snake-game_MarkupCompile.lref
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\App.baml
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\MainWindow.baml
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\snake-game.g.resources
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\snake-game.GeneratedMSBuildEditorConfig.editorconfig
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\snake-game.AssemblyInfoInputs.cache
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\snake-game.AssemblyInfo.cs
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\snake-game.csproj.CoreCompileInputs.cache
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\snake-game.sourcelink.json
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\snake-game.dll
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\refint\snake-game.dll
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\snake-game.pdb
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\snake-game.genruntimeconfig.cache
+D:\snake-game\snake-game\obj\Debug\net8.0-windows\ref\snake-game.dll

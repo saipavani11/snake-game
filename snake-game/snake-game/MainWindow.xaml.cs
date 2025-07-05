@@ -32,7 +32,7 @@ namespace snake_game
             { Directions.Left, 270 }
         };
 
-        private readonly int rows = 10, cols = 25;
+        private readonly int rows = 15, cols = 15;
         private readonly Image[,] gridImages;
 
         private GameState gameState;
@@ -61,7 +61,7 @@ namespace snake_game
                 e.Handled = true; 
             }
 
-            if (!gameRunning) { }
+            if (!gameRunning)
             {
                 gameRunning = true;
                 await RunGame();
@@ -178,7 +178,7 @@ namespace snake_game
             for(int i = 3; i >=1; i--)
             {
                 OverlayText.Text = i.ToString();
-                await Task.Delay(1000);
+                await Task.Delay(500);
             }
         }
         private async Task ShowGameOver()
